@@ -53,7 +53,7 @@ namespace DataAnalysis
                 date = date.AddDays(1);
             }
 
-            /*while (date < EndDate)
+            while (date < EndDate)
             {
                 List<Covid19DailyReportUS> records = new List<Covid19DailyReportUS>();
                 HttpClient Client = new HttpClient();
@@ -82,7 +82,7 @@ namespace DataAnalysis
                 }
 
                 date = date.AddDays(1);
-            }*/
+            }
         }
     }
 }
